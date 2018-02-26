@@ -1,2 +1,2 @@
 <?php
-define('API_KEY', 'RGAPI-1bb98110-bab7-4058-a9c9-9496fdfb49eb');
+define('API_KEY', 'RGAPI-e1d58a07-6f33-41e6-b981-fe30ce8474b0');
