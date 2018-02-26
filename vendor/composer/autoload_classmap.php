@@ -6,10 +6,17 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'ArithmeticError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
+    'AssertionError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
+    'DivisionByZeroError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
+    'Error' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/Error.php',
     'Nette\\SmartObject' => $vendorDir . '/dolejska-daniel/riot-api/src/DataDragonAPI/Utils/SmartObject.php',
     'Nette\\StaticClass' => $vendorDir . '/dolejska-daniel/riot-api/src/DataDragonAPI/Utils/StaticClass.php',
     'Nette\\Utils\\Callback' => $vendorDir . '/dolejska-daniel/riot-api/src/DataDragonAPI/Utils/Callback.php',
     'Nette\\Utils\\Html' => $vendorDir . '/dolejska-daniel/riot-api/src/DataDragonAPI/Utils/Html.php',
     'Nette\\Utils\\IHtmlString' => $vendorDir . '/dolejska-daniel/riot-api/src/DataDragonAPI/Utils/IHtmlString.php',
     'Nette\\Utils\\ObjectMixin' => $vendorDir . '/dolejska-daniel/riot-api/src/DataDragonAPI/Utils/ObjectMixin.php',
+    'ParseError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ParseError.php',
+    'SessionUpdateTimestampHandlerInterface' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
+    'TypeError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
 );

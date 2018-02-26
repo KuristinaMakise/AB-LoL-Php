@@ -1,5 +1,6 @@
 {
     "require": {
-        "dolejska-daniel/riot-api": "^1.0"
+        "dolejska-daniel/riot-api": "^1.0",
+        "csanquer/pdo-service-provider": "~1.1dev"
     }
 }
