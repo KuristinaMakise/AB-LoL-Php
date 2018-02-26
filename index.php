@@ -27,3 +27,6 @@ $app->get('/db/', function() use($app) {
     'names' => $names
   ));
 });
+
+var_dump("test");
+var_dump($dbopts);
